@@ -23,11 +23,11 @@ public interface IA {
         System.out.println("静态方法 method4");
     }
     // 私有方法(jdk9) 使用private关键字修饰,private不可以省略
-    private static void method5(){
-        System.out.println("私有静态方法  method5");
-    }
+//    private static void method5(){
+//        System.out.println("私有静态方法  method5");
+//    }
 
-    private void method6(){
-        System.out.println("私有非静态方法  method6");
-    }
+//    private void method6(){
+//        System.out.println("私有非静态方法  method6");
+//    }
 }
