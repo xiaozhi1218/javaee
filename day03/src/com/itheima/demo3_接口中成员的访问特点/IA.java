@@ -25,11 +25,11 @@ public interface IA {
     }
 
     // 私有方法
-    private void method4(){
-        System.out.println("IA 接口中的私有方法method4");
-    }
+//    private void method4(){
+//        System.out.println("IA 接口中的私有方法method4");
+//    }
 
-    private static void method5(){
-        System.out.println("IA 接口中的私有方法method5");
-    }
+//    private static void method5(){
+//        System.out.println("IA 接口中的私有方法method5");
+//    }
 }
