@@ -46,6 +46,12 @@ public class Test {
                 pokerBox.add(pai);
             }
         }
+//        for (int i = 0; i < numbers.size(); i++) {
+//            for (int i1 = 0; i1 < colors.size(); i1++) {
+//                String pai = numbers.get(i) + colors.get(i1);
+//                pokerBox.add(pai);
+//            }
+//        }
         // 1.9 打印pokerBox集合
         System.out.println(pokerBox);
         System.out.println(pokerBox.size());
