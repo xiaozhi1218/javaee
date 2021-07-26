@@ -1,0 +1,4 @@
+username=admin
+password=123456
+url=http://www.baidu.com
+class=java.lang.String

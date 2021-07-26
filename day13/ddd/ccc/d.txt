@@ -1,0 +1,6 @@
+97
+a
+3.14
+true
+itheima
+97a3.14trueitheima
