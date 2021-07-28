@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--    传智播客教学实例文档.将注释中的以下内容复制到要编写的xml的声明下面
+复制内容如下到XML文件中:
+<书架 xmlns="http://www.itcast.cn"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.itcast.cn bookSchema.xsd" >
+-->
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.itcast.cn"
+        elementFormDefault="qualified">
+
+    <!--element表示元素,也就是对元素进行约束-->
+    <!--根标签的名称为书架-->
+    <xs:element name='书架'>
+        <!--complexType:表示标签是一个复杂标签-->
+        <!--书架是一个复杂标签-->
+        <xs:complexType>
+            <!--sequence表示要按照顺序出现,maxOccurs最多出现多少次,unbounded无数次,minOccurs:最少出现多少次-->
+            <!--书架标签的子标签必须按照顺序出现,最多出现2次,最少出现1次-->
+            <xs:sequence maxOccurs="2" minOccurs="1">
+                <!--书架的子标签的名称为书-->
+                <xs:element name='书'>
+                    <!--书标签是一个复杂标签-->
+                    <xs:complexType>
+                        <!--书标签的子标签必须按照顺序出现-->
+                        <xs:sequence>
+                           <!--书标签的子标签名为书名,类型为string-->
+                           <!--书标签的子标签名为作者,类型为string-->
+                           <!--书标签的子标签名为售价,类型为double-->
+                            <xs:element name='书名' type='xs:string'/>
+                            <xs:element name='作者' type='xs:string'/>
+                            <xs:element name='售价' type='xs:double'/>
+                        </xs:sequence>
+                        <!--attribute表示属性,也就是对属性的元约束,optional:表示可选的,required:表示必须的-->
+                        <!--书标签有一个bid属性,类型为int类型,是可选-->
+                        <xs:attribute name="bid" type="xs:int" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<a:书架 xmlns:a="http://www.itcast.cn"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.itcast.cn bookSchema.xsd" >
+    <a:书 bid="1">
+        <a:书名>斗罗大陆</a:书名>
+        <a:作者>唐家三少</a:作者>
+        <a:售价>99.8</a:售价>
+    </a:书>
+</a:书架>
