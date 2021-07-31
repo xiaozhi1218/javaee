@@ -19,7 +19,7 @@ public class Demo {
         // 2.创建连接池对象
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         dataSource.setDriverClass("com.mysql.jdbc.Driver");
-        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/day21_1");
+        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/day21_1?true&characterEncoding=utf-8&useSSL=false");
         dataSource.setUser("root");
         dataSource.setPassword("root");
         dataSource.setInitialPoolSize(5);

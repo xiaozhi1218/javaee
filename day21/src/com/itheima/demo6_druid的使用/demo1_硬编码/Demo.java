@@ -19,7 +19,7 @@ public class Demo {
         // 2.创建连接池
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/day21_1");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/day21_1?true&characterEncoding=utf-8&useSSL=false");
         dataSource.setUsername("root");
         dataSource.setPassword("root");
         dataSource.setInitialSize(5);

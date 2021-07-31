@@ -1,7 +1,7 @@
 <c3p0-config>
 	<default-config>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql://localhost:3306/day21_1</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/day21_1?true&amp;characterEncoding=utf-8&amp;useSSL=false</property>
 		<property name="user">root</property>
 		<property name="password">root</property>
 		<property name="initialPoolSize">5</property>
