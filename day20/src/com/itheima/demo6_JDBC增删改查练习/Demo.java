@@ -23,7 +23,7 @@ public class Demo {
         Class.forName("com.mysql.jdbc.Driver");
 
         // 2.获得连接
-        String url = "jdbc:mysql://localhost:3306/day20_1";
+        String url = "jdbc:mysql://localhost:3306/day20_1?true&characterEncoding=utf-8&useSSL=false";
         String user = "root";
         String password = "root";
         Connection connection = DriverManager.getConnection(url, user, password);
@@ -53,7 +53,7 @@ public class Demo {
         Class.forName("com.mysql.jdbc.Driver");
 
         // 2.获得连接
-        String url = "jdbc:mysql://localhost:3306/day20_1";
+        String url = "jdbc:mysql://localhost:3306/day20_1?true&characterEncoding=utf-8&useSSL=false";
         String user = "root";
         String password = "root";
         Connection connection = DriverManager.getConnection(url, user, password);
@@ -83,7 +83,7 @@ public class Demo {
         Class.forName("com.mysql.jdbc.Driver");
 
         // 2.获得连接
-        String url = "jdbc:mysql://localhost:3306/day20_1";
+        String url = "jdbc:mysql://localhost:3306/day20_1?true&characterEncoding=utf-8&useSSL=false";
         String user = "root";
         String password = "root";
         Connection connection = DriverManager.getConnection(url, user, password);
@@ -113,7 +113,7 @@ public class Demo {
         Class.forName("com.mysql.jdbc.Driver");
 
         // 2.获得连接
-        String url = "jdbc:mysql://localhost:3306/day20_1";
+        String url = "jdbc:mysql://localhost:3306/day20_1?true&characterEncoding=utf-8&useSSL=false";
         String user = "root";
         String password = "root";
         Connection connection = DriverManager.getConnection(url, user, password);
@@ -167,7 +167,7 @@ public class Demo {
         Class.forName("com.mysql.jdbc.Driver");
 
         // 2.获得连接
-        String url = "jdbc:mysql://localhost:3306/day20_1";
+        String url = "jdbc:mysql://localhost:3306/day20_1?true&characterEncoding=utf-8&useSSL=false";
         String user = "root";
         String password = "root";
         Connection connection = DriverManager.getConnection(url, user, password);
