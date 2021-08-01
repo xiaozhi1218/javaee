@@ -43,7 +43,7 @@ public class Demo {
 
         // 2.调用query方法
         Object[] arr = qr.query("select * from user where id = ?", new ArrayHandler(), 1);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); // [1, zs, 123456, 老张]
     }
 
     // 查询结果是一条记录的---JavaBean
@@ -54,7 +54,7 @@ public class Demo {
 
         // 2.调用query方法
         User user = qr.query("select * from user where id = ?", new BeanHandler<User>(User.class), 1);
-        System.out.println(user);
+        System.out.println(user); // User{id=1, username='zs', password='123456', nickname='老张'}
 
     }
 
@@ -66,7 +66,7 @@ public class Demo {
 
         // 2.调用query方法
         Map<String, Object> map = qr.query("select * from user where id = ?", new MapHandler(), 1);
-        System.out.println(map);
+        System.out.println(map); // {password=123456, nickname=老张, id=1, username=zs}
 
     }
 
@@ -79,7 +79,7 @@ public class Demo {
         // 2.调用query方法
         List<Object[]> list = qr.query("select * from user", new ArrayListHandler());
         for (Object[] arr : list) {
-            System.out.println(Arrays.toString(arr));
+            System.out.println(Arrays.toString(arr)); // [1, zs, 123456, 老张]
         }
     }
     // 查询结果是多条记录的---->javaBean
@@ -91,7 +91,7 @@ public class Demo {
         // 2.调用query方法
         List<User> list = qr.query("select * from user", new BeanListHandler<User>(User.class));
         for (User user : list) {
-            System.out.println(user);
+            System.out.println(user); // User{id=1, username='zs', password='123456', nickname='老张'}
         }
     }
 
@@ -104,7 +104,7 @@ public class Demo {
         // 2.调用query方法
         List<Map<String, Object>> list = qr.query("select * from user", new MapListHandler());
         for (Map<String, Object> map : list) {
-            System.out.println(map);
+            System.out.println(map); // {password=123456, nickname=老张, id=1, username=zs}
         }
     }
 
@@ -119,7 +119,7 @@ public class Demo {
         Set<Object> keys = map.keySet();
         for (Object key : keys) {
             Map<String, Object> m = map.get(key);
-            System.out.println(key+"="+m);
+            System.out.println(key+"="+m); // 1={password=123456, nickname=老张, id=1, username=zs}
         }
     }
 
@@ -131,7 +131,7 @@ public class Demo {
 
         // 2.调用query方法
         List<Object> list = qr.query("select username from user", new ColumnListHandler());
-        System.out.println(list);
+        System.out.println(list);// [zs, ls, zl, ww, ww]
     }
 
     // 查询结果是单个值----对象
@@ -142,6 +142,6 @@ public class Demo {
 
         // 2.调用query方法
         Long count = (Long)qr.query("select count(*) from user", new ScalarHandler());
-        System.out.println(count);
+        System.out.println(count); // 5
     }
 }
