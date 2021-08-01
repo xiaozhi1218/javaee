@@ -20,7 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/day16_XML和dom4j、正则表达式/day16_XML和dom4j、正则表达式.iml" filepath="$PROJECT_DIR$/day16_XML和dom4j、正则表达式/day16_XML和dom4j、正则表达式.iml" />
       <module fileurl="file://$PROJECT_DIR$/day17_单例-多例-枚举-工厂模式/day17_单例-多例-枚举-工厂模式.iml" filepath="$PROJECT_DIR$/day17_单例-多例-枚举-工厂模式/day17_单例-多例-枚举-工厂模式.iml" />
       <module fileurl="file://$PROJECT_DIR$/day20_JDBC/day20_JDBC.iml" filepath="$PROJECT_DIR$/day20_JDBC/day20_JDBC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day21/day21.iml" filepath="$PROJECT_DIR$/day21/day21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day21_连接池_DbUtils/day21_连接池_DbUtils.iml" filepath="$PROJECT_DIR$/day21_连接池_DbUtils/day21_连接池_DbUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/day22_html&amp;css/day22_html&amp;css.iml" filepath="$PROJECT_DIR$/day22_html&amp;css/day22_html&amp;css.iml" />
     </modules>
   </component>
