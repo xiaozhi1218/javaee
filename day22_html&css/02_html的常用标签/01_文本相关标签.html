@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本相关的标签</title>
+</head>
+<body>
+    <!--
+        1. 标题标签，分为六级标题，分别是h1-h6
+        依次减小的
+    -->
+    <h1>hello world</h1>
+    <h2>hello world</h2>
+    <h3>hello world</h3>
+    <h4>hello world</h4>
+    <h5>hello world</h5>
+    <h6>hello world</h6>
+
+    <!--
+        2. 水平分割线标签，hr标签, 该标签可以通过属性来设置分割线的宽、粗细、颜色
+           width: 宽度
+           size: 粗细
+
+           前端的长度表示法:
+                1. 像素表示法: 单位是px
+                   分辨率: 1366 * 768   表示水平方向有1366个像素点、竖直方向有768个像素点
+                2. 百分比表示法: 占父标签的百分之多少
+
+           color: 颜色
+
+           颜色表示法:
+                1. 英文表示法
+                2. 十六进制表示法(开发中使用) #000000
+                3. RGB 表示法 (0-255,0-255,0-255)
+    -->
+    <hr width="80%" size="10px" color="#FFFAE3"/>
+
+    <!--
+        3. 段落标签: p标签，每一个p标签就是一个段落
+    -->
+    <p>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+        nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</p>
+    <p>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+        nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</p>
+    <p>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+        nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</p>
+
+    <!--
+        4. 换行标签: <br/>
+    -->
+    hello world <br/>
+    <!--
+        5. 文字标签: font,这个标签已经过时了，我们今后会使用css来设置文字的颜色和大小、字体
+           通过font标签的color属性，设置font标签里面的文字的颜色，
+           通过它的size属性设置文字的大小，size最大只能是7号
+           通过它的face属性设置字体
+    -->
+    <font color="red" size="8" face="楷体">你好世界</font>
+    <!--
+        其它的字体相关标签:
+            1. 粗体: b标签，或者strong标签
+            2. 斜体: i标签
+    -->
+    <strong><i>你好世界</i></strong>
+</body>
+</html>
