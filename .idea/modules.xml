@@ -17,9 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/day13_属性集-缓冲流-转换流-序列化流/day13_属性集-缓冲流-转换流-序列化流.iml" filepath="$PROJECT_DIR$/day13_属性集-缓冲流-转换流-序列化流/day13_属性集-缓冲流-转换流-序列化流.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_Socket网络编程、NIO,AIO/day14_Socket网络编程、NIO,AIO.iml" filepath="$PROJECT_DIR$/day14_Socket网络编程、NIO,AIO/day14_Socket网络编程、NIO,AIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/day15_JUnit单元测试、反射、注解、动态代理、JDK8新特性/day15_JUnit单元测试、反射、注解、动态代理、JDK8新特性.iml" filepath="$PROJECT_DIR$/day15_JUnit单元测试、反射、注解、动态代理、JDK8新特性/day15_JUnit单元测试、反射、注解、动态代理、JDK8新特性.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16/day16.iml" filepath="$PROJECT_DIR$/day16/day16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day17/day17.iml" filepath="$PROJECT_DIR$/day17/day17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day20/day20.iml" filepath="$PROJECT_DIR$/day20/day20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_XML和dom4j、正则表达式/day16_XML和dom4j、正则表达式.iml" filepath="$PROJECT_DIR$/day16_XML和dom4j、正则表达式/day16_XML和dom4j、正则表达式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_单例-多例-枚举-工厂模式/day17_单例-多例-枚举-工厂模式.iml" filepath="$PROJECT_DIR$/day17_单例-多例-枚举-工厂模式/day17_单例-多例-枚举-工厂模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_JDBC/day20_JDBC.iml" filepath="$PROJECT_DIR$/day20_JDBC/day20_JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/day21/day21.iml" filepath="$PROJECT_DIR$/day21/day21.iml" />
       <module fileurl="file://$PROJECT_DIR$/day22_html&amp;css/day22_html&amp;css.iml" filepath="$PROJECT_DIR$/day22_html&amp;css/day22_html&amp;css.iml" />
     </modules>
