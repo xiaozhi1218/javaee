@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day01_类和面向对象/day01_类和面向对象.iml" filepath="$PROJECT_DIR$/day01_类和面向对象/day01_类和面向对象.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02_静态、继承、模板设计模式、抽象类、final/day02_静态、继承、模板设计模式、抽象类、final.iml" filepath="$PROJECT_DIR$/day02_静态、继承、模板设计模式、抽象类、final/day02_静态、继承、模板设计模式、抽象类、final.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03/day03.iml" filepath="$PROJECT_DIR$/day03/day03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_static、接口、多态、内部类/day03_static、接口、多态、内部类.iml" filepath="$PROJECT_DIR$/day03_static、接口、多态、内部类/day03_static、接口、多态、内部类.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04/day04.iml" filepath="$PROJECT_DIR$/day04/day04.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05/day05.iml" filepath="$PROJECT_DIR$/day05/day05.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06/day06.iml" filepath="$PROJECT_DIR$/day06/day06.iml" />
