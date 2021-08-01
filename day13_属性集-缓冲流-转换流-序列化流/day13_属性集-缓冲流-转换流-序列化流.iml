@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/commons-io-2.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../day13/lib/commons-io-2.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
