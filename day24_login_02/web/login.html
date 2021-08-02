@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body>
+    <!--
+        action就是表单数据的提交路径
+        相对路径: 使用目标路径相对当前路径,路径不以"/"开头
+                 目标路径:http://localhost:8080/login_02/login
+                 当前路径:http://localhost:8080/login_02/login.html
+    -->
+    <form action="login" method="post">
+        用户名<input type="text" name="username"><br>
+        密码<input type="password" name="password"><br>
+        <input type="submit" value="登录">
+    </form>
+</body>
+</html>
