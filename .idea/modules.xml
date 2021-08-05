@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/day26_01_cookie/day26_01_cookie.iml" filepath="$PROJECT_DIR$/day26_01_cookie/day26_01_cookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/day26_02_session/day26_02_session.iml" filepath="$PROJECT_DIR$/day26_02_session/day26_02_session.iml" />
       <module fileurl="file://$PROJECT_DIR$/day26_03_user/day26_03_user.iml" filepath="$PROJECT_DIR$/day26_03_user/day26_03_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day26_04_jsp/day26_04_jsp.iml" filepath="$PROJECT_DIR$/day26_04_jsp/day26_04_jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaee.iml" filepath="$PROJECT_DIR$/.idea/javaee.iml" />
     </modules>
   </component>
