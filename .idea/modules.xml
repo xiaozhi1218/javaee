@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/day25_response_02/day25_response_02.iml" filepath="$PROJECT_DIR$/day25_response_02/day25_response_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/day25_user_04/day25_user_04.iml" filepath="$PROJECT_DIR$/day25_user_04/day25_user_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/day26_01_cookie/day26_01_cookie.iml" filepath="$PROJECT_DIR$/day26_01_cookie/day26_01_cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day26_02_session/day26_02_session.iml" filepath="$PROJECT_DIR$/day26_02_session/day26_02_session.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaee.iml" filepath="$PROJECT_DIR$/.idea/javaee.iml" />
     </modules>
   </component>
