@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day26_01_cookie:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day26_01_cookie_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day26_01_cookie" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="day26_01_cookie/web/Web" />
+    </root>
+  </artifact>
+</component>
