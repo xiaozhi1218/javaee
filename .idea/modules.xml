@@ -44,6 +44,7 @@
       <module fileurl="file://$PROJECT_DIR$/day27_09_user/day27_09_user.iml" filepath="$PROJECT_DIR$/day27_09_user/day27_09_user.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28_01_filter/day28_01_filter.iml" filepath="$PROJECT_DIR$/day28_01_filter/day28_01_filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28_02_dispatchertype/day28_02_dispatchertype.iml" filepath="$PROJECT_DIR$/day28_02_dispatchertype/day28_02_dispatchertype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day28_03_filterchain/day28_03_filterchain.iml" filepath="$PROJECT_DIR$/day28_03_filterchain/day28_03_filterchain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaee.iml" filepath="$PROJECT_DIR$/.idea/javaee.iml" />
     </modules>
   </component>
