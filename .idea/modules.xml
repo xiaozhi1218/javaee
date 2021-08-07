@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/day27_01_el/day27_01_el.iml" filepath="$PROJECT_DIR$/day27_01_el/day27_01_el.iml" />
       <module fileurl="file://$PROJECT_DIR$/day27_02_user/day27_02_user.iml" filepath="$PROJECT_DIR$/day27_02_user/day27_02_user.iml" />
       <module fileurl="file://$PROJECT_DIR$/day27_03_jstl/day27_03_jstl.iml" filepath="$PROJECT_DIR$/day27_03_jstl/day27_03_jstl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day27_04_transfer_v1/day27_04_transfer_v1.iml" filepath="$PROJECT_DIR$/day27_04_transfer_v1/day27_04_transfer_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaee.iml" filepath="$PROJECT_DIR$/.idea/javaee.iml" />
     </modules>
   </component>
