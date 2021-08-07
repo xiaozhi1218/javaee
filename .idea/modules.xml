@@ -47,6 +47,10 @@
       <module fileurl="file://$PROJECT_DIR$/day28_03_filterchain/day28_03_filterchain.iml" filepath="$PROJECT_DIR$/day28_03_filterchain/day28_03_filterchain.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28_04_encoding/day28_04_encoding.iml" filepath="$PROJECT_DIR$/day28_04_encoding/day28_04_encoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28_05_illegal_v1/day28_05_illegal_v1.iml" filepath="$PROJECT_DIR$/day28_05_illegal_v1/day28_05_illegal_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day28_06_illegal_v2/day28_06_illegal_v2.iml" filepath="$PROJECT_DIR$/day28_06_illegal_v2/day28_06_illegal_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day28_07_illegal_v3/day28_07_illegal_v3.iml" filepath="$PROJECT_DIR$/day28_07_illegal_v3/day28_07_illegal_v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day28_08_listener/day28_08_listener.iml" filepath="$PROJECT_DIR$/day28_08_listener/day28_08_listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day28_09_mail/day28_09_mail.iml" filepath="$PROJECT_DIR$/day28_09_mail/day28_09_mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaee.iml" filepath="$PROJECT_DIR$/.idea/javaee.iml" />
     </modules>
   </component>
