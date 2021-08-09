@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day31_04_search_v1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day31_04_search_v1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day31_04_search_v1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib13" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="day31_04_search_v1/web/Web" />
+    </root>
+  </artifact>
+</component>

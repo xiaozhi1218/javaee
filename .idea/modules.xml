@@ -53,6 +53,9 @@
       <module fileurl="file://$PROJECT_DIR$/day28_09_mail/day28_09_mail.iml" filepath="$PROJECT_DIR$/day28_09_mail/day28_09_mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29_linkman/day29_linkman.iml" filepath="$PROJECT_DIR$/day29_linkman/day29_linkman.iml" />
       <module fileurl="file://$PROJECT_DIR$/day31_01_ajax/day31_01_ajax.iml" filepath="$PROJECT_DIR$/day31_01_ajax/day31_01_ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day31_02_check_v1/day31_02_check_v1.iml" filepath="$PROJECT_DIR$/day31_02_check_v1/day31_02_check_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day31_03_check_v2/day31_03_check_v2.iml" filepath="$PROJECT_DIR$/day31_03_check_v2/day31_03_check_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day31_04_search_v1/day31_04_search_v1.iml" filepath="$PROJECT_DIR$/day31_04_search_v1/day31_04_search_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaee.iml" filepath="$PROJECT_DIR$/.idea/javaee.iml" />
     </modules>
   </component>
