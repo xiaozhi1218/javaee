@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <script src="js/axios-0.18.0.js"></script>
+    <script src="js/vuejs-2.5.16.js"></script>
+</head>
+<body>
+    <div id="app">
+        <form action="" method="post" onsubmit="return false">
+            邮箱<input type="text" id="email" v-model="user.email">
+            <input type="button" value="发送验证码" @click="sendMail()">
+            <span style="color: red" v-html="msg"></span>
+            <br>
+            验证码<input type="text" v-model="user.checkCode"><br>
+            <input type="button" value="提交" @click="check()">
+        </form>
+    </div>
+    <script>
+        var vue = new Vue({
+           el:"#app",
+           data:{
+                user:{},
+                msg:""
+           },
+           methods:{
+                sendMail(){
+                    axios.post("user?action=sendMail&email="+this.user.email).then(response=>{
+                        if (response.data.flag) {
+                            this.msg = "发送邮件成功"
+                        }else {
+                            this.msg = "发送邮件失败"
+                        }
+                    })
+                },
+               check(){
+                    axios.post("user?action=check&checkCode="+this.user.checkCode).then(response=>{
+                        if (response.data.flag) {
+                            alert("校验成功")
+                        }else {
+                            alert("校验失败")
+                        }
+                    })
+               }
+           }
+        });
+    </script>
+</body>
+</html>
