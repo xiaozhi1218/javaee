@@ -35,9 +35,9 @@ public class LinkManService {
         linkManDao.update(linkMan);
     }
 
-    public PageBean findByPage(Long currentPage, Integer pageSize) throws Exception {
+    public PageBean<LinkMan> findByPage(Long currentPage, Integer pageSize) throws Exception {
         //目标: 创建一个PageBean对象，设置好5个属性
-        PageBean<LinkMan> pageBean = new PageBean();
+        PageBean<LinkMan> pageBean = new PageBean<>();
         //1. 设置当前页数
         pageBean.setCurrentPage(currentPage);
         //2. 设置每页条数
