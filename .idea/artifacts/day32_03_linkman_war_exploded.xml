@@ -7,7 +7,7 @@
           <element id="module-output" name="day32_03_linkman" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="lib17" />
+          <element id="library" level="project" name="lib19" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="day32_03_linkman/web/Web" />
