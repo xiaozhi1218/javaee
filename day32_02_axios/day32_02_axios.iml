@@ -19,7 +19,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.27" level="application_server_libraries" />
-    <orderEntry type="library" name="lib (13)" level="project" />
+    <orderEntry type="library" name="fastjson-1.2.39" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.69" level="application_server_libraries" />
   </component>
 </module>

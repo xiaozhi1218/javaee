@@ -10,6 +10,7 @@
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
         <sourceRoots>
+          <root url="file://$MODULE_DIR$" />
           <root url="file://$MODULE_DIR$/src" />
         </sourceRoots>
       </configuration>
@@ -18,12 +19,13 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" packagePrefix="com.itheima" />
       <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.27" level="application_server_libraries" />
+    <orderEntry type="library" name="lib17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.69" level="application_server_libraries" />
   </component>
 </module>
