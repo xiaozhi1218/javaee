@@ -64,6 +64,7 @@
       <module fileurl="file://$PROJECT_DIR$/day32_03_linkman/day32_03_linkman.iml" filepath="$PROJECT_DIR$/day32_03_linkman/day32_03_linkman.iml" />
       <module fileurl="file://$PROJECT_DIR$/day34_01_jedis/day34_01_jedis.iml" filepath="$PROJECT_DIR$/day34_01_jedis/day34_01_jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/day34_02_province/day34_02_province.iml" filepath="$PROJECT_DIR$/day34_02_province/day34_02_province.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day34_03_mail/day34_03_mail.iml" filepath="$PROJECT_DIR$/day34_03_mail/day34_03_mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaee.iml" filepath="$PROJECT_DIR$/.idea/javaee.iml" />
     </modules>
   </component>
