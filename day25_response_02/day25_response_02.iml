@@ -21,6 +21,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="commons-io-1.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.70" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.73" level="application_server_libraries" />
   </component>
 </module>
